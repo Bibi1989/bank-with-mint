@@ -17,7 +17,10 @@ const Lists = () => {
 
       {listings.map((list, index) => (
         <Grid key={index}>
-          <Li className='title'>{list.title}</Li>
+          <Li className='title'>
+            <div>VW</div>
+            <span>{list.title}</span>
+          </Li>
           <Li>${list.price}</Li>
           <Li>{list.transactin}</Li>
           <Li>{list.time}</Li>

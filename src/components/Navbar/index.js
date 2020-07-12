@@ -1,10 +1,29 @@
 import React from "react";
-import { NavStyle, LogoText, Ul, Li, Flex, Span, P, Div } from "./style";
+import {
+  NavStyle,
+  LogoText,
+  Ul,
+  Li,
+  Flex,
+  Span,
+  P,
+  Div,
+  DivLogo,
+} from "./style";
+import { FormStyle, DivGroup, Input } from "../Main/MainSubMenu/style";
 
 const index = () => {
   return (
     <NavStyle>
-      <LogoText>TransMoniter</LogoText>
+      <DivLogo>
+        <LogoText>TransMoniter</LogoText>
+        <FormStyle>
+          <DivGroup>
+            <img src='./assets/search_icon.svg' alt='' />
+            <Input type='text' placeholder='Search' />
+          </DivGroup>
+        </FormStyle>
+      </DivLogo>
       <Ul>
         <Li>Suport</Li>
         <Li>FAQ</Li>

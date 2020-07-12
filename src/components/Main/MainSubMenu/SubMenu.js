@@ -30,7 +30,7 @@ const SubMenu = () => {
         </Flex>
       </ShowingStyle>
       <FormStyle>
-        <DivGroup>
+        <DivGroup border='0.5px solid #000'>
           <img src='./assets/search_icon.svg' alt='' />
           <Input type='text' placeholder='Search Payments' />
         </DivGroup>

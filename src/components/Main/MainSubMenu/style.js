@@ -30,7 +30,7 @@ export const P = styled.div`
 `;
 export const FormStyle = styled.div``;
 export const DivGroup = styled.div`
-  border-bottom: 0.5px solid #787878;
+  border-bottom: ${({ border }) => (border ? "0.5px solid #787878" : "none")};
   display: flex;
   align-items: center;
   padding: 5px 0;

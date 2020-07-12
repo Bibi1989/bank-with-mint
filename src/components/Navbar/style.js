@@ -15,6 +15,11 @@ export const LogoText = styled.h1`
   font-size: 24px;
   line-height: 28px;
   color: #1875f0;
+  padding-right: 10px;
+`;
+
+export const DivLogo = styled.div`
+  display: flex;
 `;
 
 export const Ul = styled.ul`

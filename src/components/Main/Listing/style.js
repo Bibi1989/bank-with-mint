@@ -30,6 +30,20 @@ export const Li = styled.p`
     font-size: 14px;
     line-height: 19px;
     color: #414042;
+    display: flex;
+    align-items: center;
+
+    div {
+      background: #7f8fa4;
+      color: #ffffff;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 26px;
+    }
   }
 `;
 

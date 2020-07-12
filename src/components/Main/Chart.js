@@ -66,11 +66,11 @@ const Chart = () => {
             </P>
             <P>
               <SpanTitle>Reconcilled Orders:</SpanTitle>
-              <SpanAmountGreen>20</SpanAmountGreen>
+              <SpanAmountGreen>80</SpanAmountGreen>
             </P>
             <P>
               <SpanTitle>Total Orders:</SpanTitle>
-              <SpanAmountBlue>20</SpanAmountBlue>
+              <SpanAmountBlue>100</SpanAmountBlue>
             </P>
           </List>
         </Order>
@@ -86,11 +86,11 @@ const Chart = () => {
             </P>
             <P>
               <SpanTitle>Reconcilled Orders:</SpanTitle>
-              <SpanAmountGreen>20</SpanAmountGreen>
+              <SpanAmountGreen>80</SpanAmountGreen>
             </P>
             <P>
               <SpanTitle>Total Orders:</SpanTitle>
-              <SpanAmountBlue>20</SpanAmountBlue>
+              <SpanAmountBlue>100</SpanAmountBlue>
             </P>
           </List>
         </Order>
