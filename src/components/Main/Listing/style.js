@@ -22,8 +22,9 @@ export const Li = styled.p`
   margin-bottom: 2px;
   font-family: Segoe UI;
   font-size: 14px;
-  line-height: 16px;
   color: #7f8fa4;
+  display: flex;
+  align-items: center;
 
   &.title {
     font-family: Segoe UI;
