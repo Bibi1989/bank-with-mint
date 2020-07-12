@@ -4,6 +4,10 @@ export const Container = styled.div`
   width: 100%;
   box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.07);
   background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 168px;
 `;
 export const Button = styled.button`
   border: none;
@@ -23,6 +27,11 @@ export const Button = styled.button`
   color: #ffffff;
   margin: 33px auto;
   margin-bottom: 0px;
+`;
+export const Divider = styled.div`
+  height: 4px;
+  width: 100%;
+  background-color: #f7f8fa;
 `;
 export const Ul = styled.ul`
   list-style: none;
