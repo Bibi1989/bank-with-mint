@@ -21,8 +21,39 @@ export const Button = styled.button`
   letter-spacing: 0.2px;
   color: #ffffff;
   margin: 33px auto;
+  margin-bottom: 0px;
 `;
-export const Ul = styled.ul``;
-export const Li = styled.li``;
+export const Ul = styled.ul`
+  list-style: none;
+
+  .li_header {
+    font-family: Segoe UI;
+    font-size: 11px;
+    line-height: 15px;
+    color: #647787;
+    padding-bottom: 14px;
+    padding-top: 32px;
+  }
+
+  .merchant_list {
+    padding-top: calc(32px - 16px);
+  }
+`;
+export const Li = styled.li`
+  display: flex;
+  align-items: center;
+  padding: 11px 42px;
+
+  &.active {
+    background-color: #e8f1fd;
+    border-left: 4px solid #1875f0;
+  }
+`;
 export const Icon = styled.div``;
-export const Span = styled.span``;
+export const Span = styled.span`
+  padding-left: 14px;
+  font-family: Segoe UI;
+  font-size: 11px;
+  line-height: 15px;
+  color: #647787;
+`;
