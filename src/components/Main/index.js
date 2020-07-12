@@ -5,6 +5,7 @@ import Card from "./Cards";
 import { cardsDetails } from "../../utils/data";
 import Chart from "./Chart";
 import SubMenu from "./MainSubMenu/SubMenu";
+import Lists from "./Listing/Lists";
 console.log(cardsDetails);
 
 const Main = () => {
@@ -23,6 +24,7 @@ const Main = () => {
       <H1>Payments</H1>
 
       <SubMenu />
+      <Lists />
     </div>
   );
 };

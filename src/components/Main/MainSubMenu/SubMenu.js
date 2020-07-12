@@ -44,6 +44,7 @@ export default SubMenu;
 export const SubNav = styled.div`
   display: flex;
   align-items: center;
+  margin-bottom: 26px;
 `;
 export const ShowingStyle = styled.div``;
 export const ArrowDown = styled.div`

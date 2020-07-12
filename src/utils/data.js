@@ -43,3 +43,69 @@ export const cardsDetails = [
 ];
 
 export const days = ["Jan", "Feb", "Mar", "Apr", "May", "Jun"];
+
+export const listings = [
+  {
+    title: 'Apple Mac Book 15" 250 SSD 12GB',
+    price: 73430,
+    transactin: "1234567890",
+    time: "12:30",
+    status: "Reconcilled",
+  },
+  {
+    title: 'Apple Mac Book 15" 250 SSD 12GB',
+    price: 73430,
+    transactin: "1234567890",
+    time: "12:30",
+    status: "Pending",
+  },
+  {
+    title: 'Apple Mac Book 15" 250 SSD 12GB',
+    price: 73430,
+    transactin: "1234567890",
+    time: "12:30",
+    status: "Reconcilled",
+  },
+  {
+    title: 'Apple Mac Book 15" 250 SSD 12GB',
+    price: 73430,
+    transactin: "1234567890",
+    time: "12:30",
+    status: "Reconcilled",
+  },
+  {
+    title: 'Apple Mac Book 15" 250 SSD 12GB',
+    price: 73430,
+    transactin: "1234567890",
+    time: "12:30",
+    status: "Pending",
+  },
+  {
+    title: 'Apple Mac Book 15" 250 SSD 12GB',
+    price: 73430,
+    transactin: "1234567890",
+    time: "12:30",
+    status: "Un-reconcilled",
+  },
+  {
+    title: 'Apple Mac Book 15" 250 SSD 12GB',
+    price: 73430,
+    transactin: "1234567890",
+    time: "12:30",
+    status: "Reconcilled",
+  },
+  {
+    title: 'Apple Mac Book 15" 250 SSD 12GB',
+    price: 73430,
+    transactin: "1234567890",
+    time: "12:30",
+    status: "Un-reconcilled",
+  },
+  {
+    title: 'Apple Mac Book 15" 250 SSD 12GB',
+    price: 73430,
+    transactin: "1234567890",
+    time: "12:30",
+    status: "Pending",
+  },
+];
