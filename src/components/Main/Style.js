@@ -7,6 +7,15 @@ export const Row = styled.div`
   gap: 16px;
 `;
 
+export const H1 = styled.h1`
+  font-family: Segoe UI;
+  font-size: 36px;
+  line-height: 48px;
+  color: #262626;
+  padding-top: 43px;
+  padding-bottom: 22px;
+`;
+
 export const Grid = styled.div`
   display: grid;
   grid-template-columns: 689px 379px;
@@ -70,4 +79,59 @@ export const ArrowButtons = styled.div`
     display: inline-block;
     padding-right: 13px;
   }
+`;
+
+export const Order = styled.div`
+  padding: 21px 25px;
+  background: #ffffff;
+`;
+export const H3 = styled.h3`
+  font-family: Segoe UI;
+  font-size: 14px;
+  line-height: 16px;
+  color: #262626;
+  padding-bottom: 11px;
+`;
+export const Progress = styled.div`
+  background: #fdc203;
+  height: 4px;
+  width: calc(242px + 63px);
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 11px;
+`;
+export const ProgressBar = styled.div`
+  background: #27ae60;
+  width: 242px;
+  height: 100%;
+`;
+export const List = styled.div``;
+export const P = styled.p`
+  display: flex;
+  padding-bottom: 11px;
+`;
+export const SpanTitle = styled.span`
+  font-family: Segoe UI;
+  font-size: 14px;
+  line-height: 16px;
+  color: #262626;
+  padding-right: 5px;
+`;
+export const SpanAmountYellow = styled.span`
+  font-family: Segoe UI;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fdc203;
+`;
+export const SpanAmountGreen = styled.span`
+  font-family: Segoe UI;
+  font-size: 14px;
+  line-height: 16px;
+  color: #27ae60;
+`;
+export const SpanAmountBlue = styled.span`
+  font-family: Segoe UI;
+  font-size: 14px;
+  line-height: 16px;
+  color: #1860ec;
 `;

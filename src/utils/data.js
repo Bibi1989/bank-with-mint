@@ -41,3 +41,5 @@ export const cardsDetails = [
     naira: true,
   },
 ];
+
+export const days = ["Jan", "Feb", "Mar", "Apr", "May", "Jun"];
