@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.07);
+  background: #ffffff;
 `;
 export const Button = styled.button`
   border: none;

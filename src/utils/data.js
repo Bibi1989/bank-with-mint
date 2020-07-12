@@ -15,3 +15,29 @@ export const orders = [
   { title: "Pending Orders", img: "./assets/pending_orders.svg" },
   { title: "Reconcilled Orders", img: "./assets/recon_orders.svg" },
 ];
+export const cardsDetails = [
+  {
+    title: "Daily Transaction Volume",
+    number: "2,342",
+    img: "./assets/small_chart.svg",
+    naira: false,
+  },
+  {
+    title: "Daily Transaction Value",
+    number: "4,000,000",
+    img: "./assets/small_chart.svg",
+    naira: true,
+  },
+  {
+    title: "Tota Transaction Volume",
+    number: "452,000",
+    img: "./assets/small_chart.svg",
+    naira: false,
+  },
+  {
+    title: "Total Transaction Volume",
+    number: "4,000,000",
+    img: "./assets/small_chart.svg",
+    naira: true,
+  },
+];
