@@ -24,6 +24,7 @@ export default Cards;
 export const Card = styled.div`
   padding: 18px;
   display: flex;
+  justify-content: space-between;
   background: #ffffff;
   border: 1px solid #eef8fd;
   border-radius: 2px;

@@ -6,6 +6,7 @@ import { cardsDetails } from "../../utils/data";
 import Chart from "./Chart";
 import SubMenu from "./MainSubMenu/SubMenu";
 import Lists from "./Listing/Lists";
+import Paginate from "./Paginate/Paginate";
 console.log(cardsDetails);
 
 const Main = () => {
@@ -16,15 +17,11 @@ const Main = () => {
           <Card key={card.title} card={card} />
         ))}
       </Row>
-
-      {/* second section */}
       <Chart />
-
-      {/* payment title */}
       <H1>Payments</H1>
-
       <SubMenu />
       <Lists />
+      <Paginate />
     </div>
   );
 };
