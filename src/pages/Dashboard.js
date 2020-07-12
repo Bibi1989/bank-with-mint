@@ -21,6 +21,7 @@ const Dashboard = () => {
 export default Dashboard;
 
 const Grid = styled.div`
+  width: 100%;
   display: grid;
   grid-template-columns: 260px 1fr;
   background: #f7f8fa;
