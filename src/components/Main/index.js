@@ -65,15 +65,35 @@ const Main = () => {
             <List>
               <P>
                 <SpanTitle>Pending Orders:</SpanTitle>
-                <SpanAmount>20</SpanAmount>
+                <SpanAmountYellow>20</SpanAmountYellow>
               </P>
               <P>
                 <SpanTitle>Reconcilled Orders:</SpanTitle>
-                <SpanAmount>20</SpanAmount>
+                <SpanAmountGreen>20</SpanAmountGreen>
               </P>
               <P>
                 <SpanTitle>Total Orders:</SpanTitle>
-                <SpanAmount>20</SpanAmount>
+                <SpanAmountBlue>20</SpanAmountBlue>
+              </P>
+            </List>
+          </Order>
+          <Order>
+            <H3>Payments</H3>
+            <Progress>
+              <ProgressBar></ProgressBar>
+            </Progress>
+            <List>
+              <P>
+                <SpanTitle>Pending Orders:</SpanTitle>
+                <SpanAmountYellow>20</SpanAmountYellow>
+              </P>
+              <P>
+                <SpanTitle>Reconcilled Orders:</SpanTitle>
+                <SpanAmountGreen>20</SpanAmountGreen>
+              </P>
+              <P>
+                <SpanTitle>Total Orders:</SpanTitle>
+                <SpanAmountBlue>20</SpanAmountBlue>
               </P>
             </List>
           </Order>
@@ -87,6 +107,7 @@ export default Main;
 
 export const Order = styled.div`
   padding: 21px 25px;
+  background: #ffffff;
 `;
 export const H3 = styled.h3`
   font-family: Segoe UI;
@@ -111,6 +132,30 @@ export const ProgressBar = styled.div`
 export const List = styled.div``;
 export const P = styled.p`
   display: flex;
+  padding-bottom: 11px;
 `;
-export const SpanTitle = styled.div``;
-export const SpanAmount = styled.div``;
+export const SpanTitle = styled.span`
+  font-family: Segoe UI;
+  font-size: 14px;
+  line-height: 16px;
+  color: #262626;
+  padding-right: 5px;
+`;
+export const SpanAmountYellow = styled.span`
+  font-family: Segoe UI;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fdc203;
+`;
+export const SpanAmountGreen = styled.span`
+  font-family: Segoe UI;
+  font-size: 14px;
+  line-height: 16px;
+  color: #27ae60;
+`;
+export const SpanAmountBlue = styled.span`
+  font-family: Segoe UI;
+  font-size: 14px;
+  line-height: 16px;
+  color: #1860ec;
+`;

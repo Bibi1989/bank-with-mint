@@ -21,7 +21,9 @@ export const GridOne = styled.div`
   background: #ffffff;
 `;
 export const GridTwo = styled.div`
-  background: #ffffff;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 5px;
 `;
 export const DivOne = styled.div`
   display: flex;
