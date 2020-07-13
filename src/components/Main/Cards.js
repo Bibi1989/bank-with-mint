@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 
 const Cards = ({ card: { title, number, img, naira } }) => {
-  console.log(title);
   return (
     <Card>
       <Div>

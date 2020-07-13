@@ -31,7 +31,7 @@ const Lists = () => {
             </Button>
           </Li>
           <Li>
-            <img src='./assets/arrow_down.svg' alt='arrow down' width='10px' />
+            <img src='./assets/arrow_down.svg' alt='arrow down' width='20px' />
           </Li>
         </Grid>
       ))}
