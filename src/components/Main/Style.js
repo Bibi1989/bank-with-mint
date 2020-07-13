@@ -44,6 +44,7 @@ export const DivOne = styled.div`
 export const DivTwo = styled.div``;
 export const H4 = styled.h4``;
 export const Select = styled.div`
+  width: 138px;
   border: 1px solid #dde0e3;
   border-radius: 4.25px;
   padding: 10px 11px;
@@ -51,7 +52,8 @@ export const Select = styled.div`
   font-size: 12px;
   line-height: 16px;
   display: flex;
-  align-items: flex-end;
+  justify-content: space-between;
+  align-items: center;
 
   color: #7f8fa4;
 `;

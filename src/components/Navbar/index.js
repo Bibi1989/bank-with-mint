@@ -20,7 +20,7 @@ const index = () => {
         <FormStyle>
           <DivGroup>
             <img src='./assets/search_icon.svg' alt='' />
-            <Input type='text' placeholder='Search' />
+            <Input type='text' placeholder='Search...' />
           </DivGroup>
         </FormStyle>
       </DivLogo>
